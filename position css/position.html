@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        .rafsan div {
+            border: 1px dashed brown;
+            width: 200px;
+        }
+
+        .rafsan {
+            position: relative;
+        }
+
+        #water {
+            position: relative;
+            top: -75px;
+            z-index: -12;
+
+        }
+
+        #ring {
+            position: relative;
+            z-index: 1;
+        }
+
+        #boy {
+            position: relative;
+            top: 75px;
+            z-index: 2;
+        }
+
+        .dummy {
+            height: 150px;
+            width: 250px;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>this is my hearder</h1>
+        <h1>i am learning position</h1>
+        <h1>higher position</h1>
+    </section>
+
+    <section class="rafsan">
+        <div id="boy"><img src="images/boy.svg"></div>
+        <div id="ring"><img src="images/ring.svg" alt=""></div>
+        <div id="water"><img src="images/water.svg" alt=""></div>
+
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </section>
+
+    <section>
+        <h1>this is seperate</h1>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </section>
+</body>
+
+</html>
